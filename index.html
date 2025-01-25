@@ -11,9 +11,18 @@
 <body>
     <div class="container">
 
-    <div class="header"><img src="film.png" alt="" width="40" height="40">C i n e V i b e</div>
+    <div class="header">
 
-    <input type="text" placeholder="🔎 Search film">
+        <img src="film.png" alt="" width="40" height="40">C i n e V i b e</div>
+
+    <div class="search-con">
+    <div id="search-box">
+    <input id="search" type="text" placeholder="🔎 Search film">
+    <button onclick="searchMovie" id="search-btn">Search</button>
+    </div>
+    </div>
+
+<div id="container"></div>
 
     <ul id="list"> </ul>
 

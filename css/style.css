@@ -60,6 +60,22 @@ button {
     margin-right: 10px;
 }
 
+.search-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#search-box{
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   padding: 0 20px;
+   gap: 20px;
+}
+   
 input{
     width: 1000px;
     height: 40px;
@@ -71,13 +87,25 @@ input{
     margin-bottom: 30px;
 }
 
+#search-btn{
+   
+    padding: 15px 20px;
+    font-weight: 400;
+    font-size:20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc); 
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    margin-top: -23px;
+    cursor: pointer;
+}
+
 #list {
-    
     flex-wrap: wrap;
     gap: 30px;
     display: flex;
     align-items: center;
-    justify-self: center;
+    justify-content: center;
    
 }
 
@@ -100,6 +128,8 @@ li img {
 li div {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
 }
 
 .c-btn {
@@ -112,11 +142,12 @@ li div {
 
 #btn {
 
-    padding: 15px 20px;
-    border: 4px black solid;
-    color: black;
+    padding: 15px 25px;
+    border: none;
+    color: #fff;
     font-size: 20px;
     font-weight: 400;
     border-radius: 30px;
-    background: #FFD700;
+    background: linear-gradient(to right, #6a11cb, #2575fc); 
+    cursor: pointer;
 }
